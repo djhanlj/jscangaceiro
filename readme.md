@@ -12,7 +12,7 @@
  - Declaração de variáveis com `VAR` ou `LET` e seus escopos
 
  # Capitulo 3
- - Apresentação da responsabilidade controller;
+ - Apresentação do controller;
  - Criação do controller NegociacaoController;
  - Criação do arquivo app.js que vai centralizar a configuração do projeto;
  - Captura dos dados do formulário para o controller;

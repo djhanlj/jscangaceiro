@@ -47,5 +47,8 @@
  - Refatoração de algumas classes utilizando herança;
  - Declaração de variáveis com `const`;
   
- 
+   # Capítulo 8
+ - Refatoração da lógica de apresentação dos dados na View;
+ - Utilização de `arrow function` e seu escopo; 
+
 

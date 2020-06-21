@@ -38,3 +38,14 @@
  - Utilização de templates literais `${}` na criação da tabela;
  - Utilização do método `map` para listagem dos dados na tabela;
  - Utilização do método `reduce` para apresentar a soma do volume no footer da tabela;
+
+  # Capítulo 7
+ - Criação das classes View, Mensagem e MensagemView;
+ - Utilização herança da Orientação a Objetos;
+ - Utilização de subescrita de métodos;
+ - Utilização do método `super`;
+ - Refatoração de algumas classes utilizando herança;
+ - Declaração de variáveis com `const`;
+  
+ 
+

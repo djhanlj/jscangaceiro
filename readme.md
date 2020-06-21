@@ -51,4 +51,8 @@
  - Refatoração da lógica de apresentação dos dados na View;
  - Utilização de `arrow function` e seu escopo; 
 
+   # Capítulo 9
+ - Utilizando padrão de projeto Proxy;
+ - Refatorando o modelo Negocios para não carregar muitas responsabilidades ao modelo;
+  
 

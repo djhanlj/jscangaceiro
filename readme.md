@@ -12,7 +12,7 @@
  - Declaração de variáveis com `VAR` ou `LET` e seus escopos
 
  # Capítulo 3
- - Apresentação do controller;
+ - Apresentação do controller do padrão MVC;
  - Criação do controller NegociacaoController;
  - Criação do arquivo app.js que vai centralizar a configuração do projeto;
  - Captura dos dados do formulário para o controller;
@@ -32,4 +32,9 @@
  - Refatoração do método adicionar da classe NegociacaoController; 
  - Utilização dos métodos de array `push` e `concat`
 
-
+  # Capítulo 6
+ - Apresentação da view do padrão MVC;
+ - Criação da classe NegociacoesView o qual fica responsável por renderizar a tabela com os dados inseridos via formulário;
+ - Utilização de templates literais `${}` na criação da tabela;
+ - Utilização do método `map` para listagem dos dados na tabela;
+ - Utilização do método `reduce` para apresentar a soma do volume no footer da tabela;

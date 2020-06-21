@@ -16,5 +16,11 @@
  - Criação do controller NegociacaoController;
  - Criação do arquivo app.js que vai centralizar a configuração do projeto;
  - Captura dos dados do formulário para o controller;
- - Utilização dos métodos bind, split e spread
- - Formas de utilizar a classe Date
+ - Utilização dos métodos bind, split e spread;
+ - Formas de utilizar a classe Date;
+
+  # Capitulo 4
+ - Criação de classe DateConverter para tratamento de data;
+ - Utilização de métodos `static`;
+ - Tratamento de exceções utilziando `throw` e classe `Error`;
+

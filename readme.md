@@ -55,4 +55,8 @@
  - Utilizando padrão de projeto Proxy;
  - Refatorando o modelo Negocios para não carregar muitas responsabilidades ao modelo;
   
-
+   # Capítulo 10
+ - Utilizando padrão de projeto Factory;
+ - Criação do Bind para interligar a visão com a atualização do modelo de forma automática;
+ - Refatorando a classe NegociacaoController;
+ - Utilização do operador `spread`

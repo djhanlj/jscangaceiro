@@ -60,3 +60,9 @@
  - Criação do Bind para interligar a visão com a atualização do modelo de forma automática;
  - Refatorando a classe NegociacaoController;
  - Utilização do operador `spread`
+
+    # Capítulo 11
+ - Tratamento de exceções com a classe Error;
+ - Criando classes de Erro para utilizar na aplicação;
+ - Utilização `try` e `catch` para tratamento de exceções; 
+ - Utilização do método de array `reverse` 

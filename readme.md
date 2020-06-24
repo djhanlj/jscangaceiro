@@ -47,22 +47,28 @@
  - Refatoração de algumas classes utilizando herança;
  - Declaração de variáveis com `const`;
   
-   # Capítulo 8
+  # Capítulo 8
  - Refatoração da lógica de apresentação dos dados na View;
  - Utilização de `arrow function` e seu escopo; 
 
-   # Capítulo 9
+  # Capítulo 9
  - Utilizando padrão de projeto Proxy;
  - Refatorando o modelo Negocios para não carregar muitas responsabilidades ao modelo;
   
-   # Capítulo 10
+  # Capítulo 10
  - Utilizando padrão de projeto Factory;
  - Criação do Bind para interligar a visão com a atualização do modelo de forma automática;
  - Refatorando a classe NegociacaoController;
  - Utilização do operador `spread`
 
-    # Capítulo 11
+  # Capítulo 11
  - Tratamento de exceções com a classe Error;
  - Criando classes de Erro para utilizar na aplicação;
  - Utilização `try` e `catch` para tratamento de exceções; 
  - Utilização do método de array `reverse` 
+
+  # Capítulo 12
+ - Consumo de uma API utilizando os recursos da classe XMLHttpRequest;
+ - Listando dados utilizando os métodos `open`, `readyStete`, `xhr.onreadystatechange`, `status`, `send` e  `responseText` da classe XMLHttpRequest;
+ - Criação de Service para separação de responsabilidade ao consumir API;
+ 

@@ -72,3 +72,8 @@
  - Listando dados utilizando os métodos `open`, `readyStete`, `xhr.onreadystatechange`, `status`, `send` e  `responseText` da classe XMLHttpRequest;
  - Criação de Service para separação de responsabilidade ao consumir API;
  
+  # Capítulo 13
+ - Utilização de Promisse para tratar retorno da requisição HTTP;
+ - Utilização de Promisse individuais e do método Promisse.all;
+ - Refatoração da conexão a API;
+ - Utilização dos métodos de array `filter` e `some`, e também do método `JSON.stringify` para comparar string; 

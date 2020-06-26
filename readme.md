@@ -77,3 +77,9 @@
  - Utilização de Promisse individuais e do método Promisse.all;
  - Refatoração da conexão a API;
  - Utilização dos métodos de array `filter` e `some`, e também do método `JSON.stringify` para comparar string; 
+
+  # Capítulo 14
+ - Utilizando o banco de dados transacional IndexedDB;
+ - Utilização do métodos `onupgradeneeded` e `onsuccess` do IndexedDB;
+ - Criação de banco de dados no navegador;
+ - Criação e Listagem da entidade Negocio no banco de dados do navegador 

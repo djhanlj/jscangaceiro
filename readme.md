@@ -89,3 +89,9 @@
  - Criação de uma função imediatas `(Immediately-invoked function expression)` e anônimas;
  - Utilização do padrão de projeto Module Pattern;
  - Alterando o comportamento interno da classe de banco de dados com a técnica de `Monkey Patch`;
+
+  # Capítulo 16
+ - Utilizando o padrão de projeto DAO;
+ - Criação da classe NegociacaoDao para criação dos métodos referente de adicionar, listar e apagar os dados da base de dados;
+ - Criação do DaoFactory para abstrair a utilização do métodos da classe NegociacaoDao;
+ - Refatoração da classe NegociacaoController para utilizar os métodos de conexão com o banco de dados;

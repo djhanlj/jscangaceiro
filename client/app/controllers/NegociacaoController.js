@@ -20,15 +20,33 @@ class NegociacaoController {
             'texto',
         );
 
+        this._init();
+
+    }
+
+    _init() {
+        getNegociacaoDao()
+            .then(dao => dao.listaTodos())
+            .then(negociacoes =>
+                negociacoes.forEach(negociacao =>
+                    this._negociacoes.adiciona(negociacao)))
+            .catch(err => this._mensagem.texto = err);
     }
 
     adiciona(event) {
 
         try {
             event.preventDefault();
-            this._negociacoes.adiciona(this._criaNegociacao());
-            this._mensagem.texto = 'Negociação adicionada com sucesso';
-            this._limparFormu();
+
+            const negociacao = this._criaNegociacao()
+
+            getNegociacaoDao()
+                .then(dao => dao.adiciona(negociacao))
+                .then(() => {
+                    this._negociacoes.adiciona(negociacao);
+                    this._mensagem.texto = 'Negociação adicionada com sucesso';
+                    this._limpaFormulario();
+                })
 
         } catch (err) {
 
@@ -45,7 +63,7 @@ class NegociacaoController {
 
     }
 
-    _limparFormulario() {
+    _limpaFormulario() {
         this._inputData.value = '';
         this._inpuQuantidade.value = 1;
         this._inpuValor.value = 0.0;
@@ -61,8 +79,13 @@ class NegociacaoController {
     }
 
     apaga() {
-        this._negociacoes.esvazia();
-        this._mensagem.texto = 'Negociações apagadas com sucesso';
+        getNegociacaoDao()
+            .then(dao => dao.apagaTodos())
+            .then(() => {
+                this._negociacoes.esvazia();
+                this._mensagem.texto = 'Negociações apagadas com sucesso';
+            })
+            .catch(err => this._mensagem.texto = err);
     }
 
     importaNegociacoes() {

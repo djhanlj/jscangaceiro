@@ -82,10 +82,10 @@
  - Utilizando o banco de dados transacional IndexedDB;
  - Utilização do métodos `onupgradeneeded` e `onsuccess` do IndexedDB;
  - Criação de banco de dados no navegador;
- - Criação e Listagem da entidade Negocio no banco de dados do navegador 
+ - Criação e Listagem da entidade Negocio no banco de dados do navegador;
 
   # Capítulo 15
  - Criando uma fabrica de conexão com o banco através da classe ConnectionFactory;
  - Criação de uma função imediatas `(Immediately-invoked function expression)` e anônimas;
  - Utilização do padrão de projeto Module Pattern;
- - Alterando o comportamento interno da classe de banco de dados com a técnica de `Monkey Patch`
+ - Alterando o comportamento interno da classe de banco de dados com a técnica de `Monkey Patch`;

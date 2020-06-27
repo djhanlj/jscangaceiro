@@ -95,3 +95,10 @@
  - Criação da classe NegociacaoDao para criação dos métodos referente de adicionar, listar e apagar os dados da base de dados;
  - Criação do DaoFactory para abstrair a utilização do métodos da classe NegociacaoDao;
  - Refatoração da classe NegociacaoController para utilizar os métodos de conexão com o banco de dados;
+
+  # Capítulo 17
+ - Utilização das seguintes libs: `System.js`, `Babel`;
+ - Refatoração da aplicação para utilizar o sistema de módulos;
+ - Transpilação do código implementado.;
+ - Compilação de arquivos em tempo real; 
+ - Utilização de `barrels` para simplificar a importação de módulos;

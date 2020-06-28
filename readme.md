@@ -107,3 +107,9 @@
  - Utilização dos métodos `async` e `await` disponíveis o ES7;
  - Utilização do padrão Debounce;
  - Criação de métodos para lançar exceções personalizadas; 
+ - Utilização de 
+
+  # Capítulo 19
+ - Utilização de padrão de projeto Decorators com a utilização da lib `babel-plugin-transform-decorators-legacy`;
+ - Utilização da API `fetch` para simplificar requisições HTTP;
+ - Utilização da lib `reflect-metadata` para captura eventos do navegador de forma genérica apenas com utilização de decorators;

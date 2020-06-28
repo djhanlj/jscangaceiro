@@ -102,3 +102,8 @@
  - Transpilação do código implementado.;
  - Compilação de arquivos em tempo real; 
  - Utilização de `barrels` para simplificar a importação de módulos;
+
+  # Capítulo 18
+ - Utilização dos métodos `async` e `await` disponíveis o ES7;
+ - Utilização do padrão Debounce;
+ - Criação de métodos para lançar exceções personalizadas; 

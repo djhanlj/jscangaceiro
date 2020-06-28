@@ -113,3 +113,7 @@
  - Utilização de padrão de projeto Decorators com a utilização da lib `babel-plugin-transform-decorators-legacy`;
  - Utilização da API `fetch` para simplificar requisições HTTP;
  - Utilização da lib `reflect-metadata` para captura eventos do navegador de forma genérica apenas com utilização de decorators;
+
+  # Capítulo 20
+ - Utilização do webpack;
+ 

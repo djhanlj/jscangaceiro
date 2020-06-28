@@ -42,7 +42,13 @@ plugins.push(
     })
 );
 
+
+let SERVICE_URL = JSON.stringify('http://localhost:3000')
+
 if (process.env.NODE_ENV == 'production') {
+
+    //TODO: aqui url de produção
+    //SERVICE_URL = JSON.stringify("http://enderecodasuaapi.com");
 
     plugins.push(new webpack.optimize.ModuleConcatenationPlugin());
 
@@ -60,12 +66,15 @@ if (process.env.NODE_ENV == 'production') {
     }));
 }
 
+plugins.push(new webpack.DefinePlugin({
+    SERVICE_URL
+}));
 
 module.exports = {
     entry: {
         app: './app-src/app.js',
         vendor: ['jquery', 'bootstrap', 'reflect-metadata'],
-    }, 
+    },
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),
@@ -104,5 +113,8 @@ module.exports = {
             }
         ]
     },
-    plugins
+    plugins,
+    devServer:{
+        noInfo: true
+    }
 }
